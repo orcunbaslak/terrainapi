@@ -1,0 +1,16 @@
+[package]
+name = "terrainapi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0"
+actix-multipart = "0.4"
+csv = "1.1"
+ndarray = { version = "0.15", features = ["rayon"] }
+serde = { version = "1.0", features = ["derive"] }
+futures = "0.3"
+rayon = "1.5"
+num_cpus = "1.13"
+serde_json = "1.0"
+kiddo = "0.2"
